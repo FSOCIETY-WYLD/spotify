@@ -103,9 +103,7 @@ function Test-SpotifyVersion
 }
 
 Write-Host @'
-**********************************
-Authors: @Nuzair46, @KUTlime
-**********************************
+Hello
 '@
 
 $spotifyDirectory = Join-Path -Path $env:APPDATA -ChildPath 'Spotify'
